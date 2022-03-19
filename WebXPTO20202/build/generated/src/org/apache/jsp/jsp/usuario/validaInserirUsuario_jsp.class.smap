@@ -1,0 +1,13 @@
+SMAP
+validaInserirUsuario_jsp.java
+JSP
+*S JSP
+*F
++ 0 validaInserirUsuario.jsp
+jsp/usuario/validaInserirUsuario.jsp
+*L
+1,17:46
+17,4:63
+21,4:67,3
+25,3:79
+*E

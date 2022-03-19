@@ -1,0 +1,95 @@
+13-Apr-2021 22:21:48.586 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.58
+13-Apr-2021 22:21:48.607 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 21:45:33 UTC
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.58.0
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+13-Apr-2021 22:21:48.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\logging.properties
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-I3EE8NJ
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\temp
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13-Apr-2021 22:21:48.617 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Apr-2021 22:21:48.692 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+13-Apr-2021 22:21:49.625 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Apr-2021 22:21:50.191 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Apr-2021 22:21:50.201 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3901 ms
+13-Apr-2021 22:21:50.332 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2021 22:21:50.332 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.58
+13-Apr-2021 22:21:50.379 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml]
+13-Apr-2021 22:21:50.464 GRAVE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@34403d92]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4803)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4939)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1822)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\flavi\Downloads\Trabalho bit\WebXPTO20202\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:747)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:705)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+13-Apr-2021 22:21:50.464 GRAVE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml]
+	java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@34403d92]
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1822)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+13-Apr-2021 22:21:50.464 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml] has finished in [85] ms
+13-Apr-2021 22:21:50.464 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\docs]
+13-Apr-2021 22:21:51.501 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\docs] has finished in [1,037] ms
+13-Apr-2021 22:21:51.501 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\examples]
+13-Apr-2021 22:21:53.338 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\examples] has finished in [1,837] ms
+13-Apr-2021 22:21:53.338 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\host-manager]
+13-Apr-2021 22:21:53.407 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\host-manager] has finished in [69] ms
+13-Apr-2021 22:21:53.407 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\manager]
+13-Apr-2021 22:21:53.476 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\manager] has finished in [54] ms
+13-Apr-2021 22:21:53.476 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\ROOT]
+13-Apr-2021 22:21:53.545 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\ROOT] has finished in [69] ms
+13-Apr-2021 22:21:53.545 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Apr-2021 22:21:53.561 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 3347 ms
+13-Apr-2021 22:21:57.972 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebXPTO20202]
+13-Apr-2021 22:21:58.357 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml]
+13-Apr-2021 22:21:59.338 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2021 22:21:59.344 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml] has finished in [987] ms
+13-Apr-2021 22:21:59.344 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebXPTO20202]] after start() had already been called. The second call will be ignored.
+13-Apr-2021 22:27:45.088 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Apr-2021 22:27:45.088 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Apr-2021 22:27:45.514 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2021 22:27:45.661 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebXPTO20202] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+13-Apr-2021 22:27:45.661 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebXPTO20202] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+13-Apr-2021 22:27:45.746 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Apr-2021 22:27:45.746 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

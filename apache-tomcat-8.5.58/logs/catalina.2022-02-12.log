@@ -1,0 +1,82 @@
+12-Feb-2022 18:17:00.371 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.58
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 21:45:33 UTC
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.58.0
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\logging.properties
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-I3EE8NJ
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\temp
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12-Feb-2022 18:17:00.406 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Feb-2022 18:17:00.453 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+12-Feb-2022 18:17:00.985 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Feb-2022 18:17:01.841 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Feb-2022 18:17:01.888 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2952 ms
+12-Feb-2022 18:17:01.972 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Feb-2022 18:17:01.972 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.58
+12-Feb-2022 18:17:02.026 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml]
+12-Feb-2022 18:17:02.142 GRAVE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1469d85e]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4803)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4939)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1822)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\flavi\Downloads\3 Semestre\Disp moveis\Trabalho bit\WebXPTO20202\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:747)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:705)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+12-Feb-2022 18:17:02.142 GRAVE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml]
+	java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1469d85e]
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1822)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+12-Feb-2022 18:17:02.142 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml] has finished in [116] ms
+12-Feb-2022 18:17:02.142 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\docs]
+12-Feb-2022 18:17:02.886 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\docs] has finished in [744] ms
+12-Feb-2022 18:17:02.886 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\examples]
+12-Feb-2022 18:17:04.743 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\examples] has finished in [1,857] ms
+12-Feb-2022 18:17:04.743 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\host-manager]
+12-Feb-2022 18:17:04.874 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\host-manager] has finished in [131] ms
+12-Feb-2022 18:17:04.881 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\manager]
+12-Feb-2022 18:17:04.997 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\manager] has finished in [116] ms
+12-Feb-2022 18:17:04.997 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\ROOT]
+12-Feb-2022 18:17:05.059 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\webapps\ROOT] has finished in [62] ms
+12-Feb-2022 18:17:05.081 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Feb-2022 18:17:05.097 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 3215 ms
+12-Feb-2022 18:17:08.750 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebXPTO20202]
+12-Feb-2022 18:17:09.054 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml]
+12-Feb-2022 18:17:10.480 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Feb-2022 18:17:10.587 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\flavi\Downloads\FATEC\3 Semestre\Disp moveis\Trabalho bit\apache-tomcat-8.5.58\conf\Catalina\localhost\WebXPTO20202.xml] has finished in [1,533] ms
+12-Feb-2022 18:17:10.603 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebXPTO20202]] after start() had already been called. The second call will be ignored.
