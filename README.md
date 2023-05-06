@@ -4,4 +4,4 @@ Sistema de cadastro de funcionarios CRUD (leitura, criação, atualização e re
 
 - Java
 - HTML
-- SQL Server
+- SQL
